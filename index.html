@@ -1,15 +1,52 @@
 <!DOCTYPE html>
+<!--　この文章がHTML文章であることを伝える要素です。-->
 <html lang="ja">
+  <!--言語の指定-->
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <!--ページに表示されない情報(サイトの裏側の設定)-->
+    <meta charset="utf-8" />
+    <title>自己紹介</title>
+    <!--ブラウザのタブのタイトルを指定-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
   </head>
+
   <body>
-    <h1>ポートフォリオサイト</h1>
-    <script src="main.js"></script>
+    <header>
+      <p class="header-title">
+        <b>about me</b>
+      </p>
+    </header>
+    <div id="first-block">
+      <div class="info-container">
+        <div class="introduction">
+          <h1 class="info-container-name">村中 光一</h1>
+
+          <p class="attribution">
+            創価大学国際教養学部 / GeekSalon iPhoneメンター
+          </p>
+        </div>
+        <div class="introduction2">
+          <p class="my-story-title"><span>どんな人ー？</span></p>
+          <div class="container">
+            <p class="my-story-body">
+              ２２卒元就活生です✌️<br />4月からウイングアーク1st株式会社に入社します！<br />プリセールスエンジニアとしてデータドリブンの神、<br />課題解決の神を目指します！！
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="button-container">
+        <a href="https://www.instagram.com/enrichlife_04/">
+          <button type="button" class="mybtn-ins sns-btn">Instagram</button>
+        </a>
+        <a href="https://twitter.com/lighted_04">
+          <button type="button" class="mybtn-tw sns-btn">Twitter</button>
+        </a>
+      </div>
+    </div>
   </body>
 </html>

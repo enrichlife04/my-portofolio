@@ -21,6 +21,7 @@
       </p>
     </header>
     <div id="first-block">
+      <img src="Feather1.jpg" alt="" />
       <div class="info-container">
         <div class="introduction">
           <h1 class="info-container-name">村中 光一</h1>
@@ -33,12 +34,23 @@
           <p class="my-story-title"><span>どんな人ー？</span></p>
           <div class="container">
             <p class="my-story-body">
-              ２２卒元就活生です✌️<br />4月からウイングアーク1st株式会社に入社します！<br />プリセールスエンジニアとしてデータドリブンの神、<br />課題解決の神を目指します！！
+              ２２卒元就活生、GeekではiPhoneコースメンターです✌️<br />４月からウイングアーク１st株式会社に入社します！<br />プリセールスエンジニアとしてデータドリブンの神、<br />課題解決の神を目指します！！🔥🔥🔥
             </p>
           </div>
         </div>
       </div>
 
+      <div id="quiz-container">
+        <h2>こーいちクイズ👏👏👏👏</h2>
+        <h2>私がGeekを受講した時期はいつだと思いますか？？</h2>
+        <div>
+          <button id="choice-1">2020年1月〜</button>
+          <button id="choice-2">2020年4月〜</button>
+          <button id="choice-3">2020年7月〜</button>
+        </div>
+
+        <div id="display">答えはこちら！！</div>
+      </div>
       <div class="button-container">
         <a href="https://www.instagram.com/enrichlife_04/">
           <button type="button" class="mybtn-ins sns-btn">Instagram</button>
@@ -48,5 +60,28 @@
         </a>
       </div>
     </div>
+
+    <script>
+      //ここはJsの世界
+      const choice1 = document.getElementById("choice-1");
+      const choice2 = document.getElementById("choice-2");
+      const choice3 = document.getElementById("choice-3");
+      const display = document.getElementById("display");
+
+      choice1.onclick = function () {
+        alert("ざんねんぴええええええええん");
+        display.textContent = "残念〜〜ちゃいます😂";
+      };
+
+      choice2.onclick = function () {
+        alert("👼👼👼👼👼👼👼正解👼👼👼👼👼👼👼👼");
+        display.textContent = "大正解！！！！お見事！！ もうおじさんです🙋‍♂️";
+      };
+
+      choice3.onclick = function () {
+        alert("ざんねんぴええええええええん");
+        display.textContent = "残念〜〜ちゃいます😂 ";
+      };
+    </script>
   </body>
 </html>

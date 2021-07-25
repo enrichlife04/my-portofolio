@@ -32,6 +32,19 @@ header {
   left: 5%;
 }
 
+#quiz-container {
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 150px;
+  width: 600px;
+  display: flex;
+  border-radius: 40px;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
 .introduction {
   margin-top: 40px;
   text-align: center;
@@ -90,10 +103,11 @@ span {
 /* <------- Twitter,FaceebookBTNここから-------> */
 
 .button-container {
+  margin-top: 20px;
   width: 100px;
   position: absolute;
   top: 580px;
-  left: 130px;
+  left: 110px;
 }
 
 .sns-btn {
@@ -113,10 +127,19 @@ span {
 }
 
 .mybtn-tw {
+  margin-top: 5px;
   background: #39a9f2;
   border-radius: 40px;
 }
 
 .mybtn-tw:hover {
   opacity: 0.7;
+}
+
+#quiz-container {
+  margin-top: 200px;
+  width: 1000px;
+  position: absolute;
+  top: 580px;
+  left: 110px;
 }
